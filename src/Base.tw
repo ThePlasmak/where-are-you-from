@@ -1,0 +1,27 @@
+:: StoryTitle {"position":"0,650"}
+where are you from
+
+:: StoryData {"position":"0,775"}
+{
+	"ifid": "84012CFD-4277-45A8-9CF9-5A18EBA209DC",
+	"format": "SugarCube",
+	"format-version": "2.36.1",
+	"start": "Start"
+}
+
+:: StoryInit
+<<set $where to "Singapore">>
+
+:: Start {"position":"0,125"}
+
+where are you from?
+
+<<textbox "$where" "" autofocus>>
+
+[[this is where you are from.|1]]
+
+:: 1
+<div class="title">$where</div><div class="subtitle">by Sarah Mak and You</div>
+you remember $where. $where is where you had your first of many firsts. $where burns in your throat, and colours your voice. $where is the substance of your stories, dreams, and nightmares. $where whispers in your bones at 3 am. perhaps you yearn for a $where which does not exist.
+
+though sometimes, you want to forget $where, and be free of its sacred weight. but $where will always be a wound in your body, a memory open for viewing.
