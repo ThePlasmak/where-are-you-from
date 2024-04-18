@@ -2,7 +2,7 @@ from docx import Document
 import re
 
 twee_filename = "src/Base.tw"
-word_filename = "export/Script (Sarah Mak).docx"
+word_filename = "export/Where_Are_You_From.docx"
 
 
 def twee_to_word(twee_filename, word_filename):
