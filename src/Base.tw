@@ -12,8 +12,7 @@ where are you from
 :: StoryInit
 <<set $where to "Singapore">>
 
-:: Start {"position":"0,125"}
-
+:: Start [no-undo] {"position":"0,125"}
 where are you from?
 
 <<textbox "$where" "" autofocus>>
