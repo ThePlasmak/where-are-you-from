@@ -1,5 +1,5 @@
 :: StoryTitle {"position":"0,650"}
-where are you from
+Where Are You From
 
 :: StoryData {"position":"0,775"}
 {
@@ -13,11 +13,11 @@ where are you from
 <<set $where to "Singapore">>
 
 :: Start [no-undo] {"position":"0,125"}
-where are you from?
+Where are you from?
 
 <<textbox "$where" "" autofocus>>
 
-[[this is where you are from|1]].
+[[This is where you are from|1]].
 
 :: 1
 <div class="title">$where</div><div class="subtitle">by Sarah Mak and You</div>
