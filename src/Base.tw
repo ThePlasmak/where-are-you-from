@@ -17,10 +17,10 @@ where are you from?
 
 <<textbox "$where" "" autofocus>>
 
-[[this is where you are from.|1]]
+[[this is where you are from|1]].
 
 :: 1
 <div class="title">$where</div><div class="subtitle">by Sarah Mak and You</div>
-you remember $where. $where is where you had your first of many firsts. $where burns in your throat, and colours your voice. $where is the substance of your stories, dreams, and nightmares. $where whispers in your bones at 3 am. perhaps you yearn for a $where which does not exist.
+You remember $where. $where is where you had your first of many firsts. $where burns in your throat, and colours your voice. $where is the substance of your stories, dreams, and nightmares. $where whispers in your bones at 3 am. Perhaps you yearn for a $where which does not exist.
 
-though sometimes, you want to forget $where, and be free of its sacred weight. but $where will always be a wound in your body, a memory open for viewing.
+Though sometimes, you want to forget $where, and be free of its sacred weight. But $where will always be a wound in your body, a memory open for viewing.
