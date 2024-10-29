@@ -1,2 +1,2 @@
-# advanced-creative-writing-2
-The working files of Where Are You From.
+# Where Are You From
+An interactive poem made in Twine.
