@@ -13,12 +13,23 @@ Where Are You From
 <<set $where to "Singapore">>
 
 :: Start [no-undo] {"position":"0,125"}
-Where are you from?
+<div class="start-container">\
+    <h1 class="main-question">Where are you from?</h1>
 
-<<textbox "$where" "" autofocus>>
-
-[[This is where you are from|1]].
-
+    <div class="input-container">
+        <<textbox "$where" "" autofocus>>
+    </div>
+    
+    <div class="continue-link">\
+        <<link "This is where you are from">>\
+            <<if $where.trim() !== "">>\
+                <<goto "1">>
+			<<else>>
+                <<goto "Start">>
+            <</if>>\
+        <</link>>.\
+    </div>\
+</div>
 :: 1
 <div class="title">$where</div><div class="subtitle">by Sarah Mak and You</div>
 You remember $where. $where is where you had your first of many firsts. $where burns in your throat, and colours your voice. $where is the substance of your stories, dreams, and nightmares. $where whispers in your bones at 3 am. Perhaps you yearn for a $where which does not exist.
